@@ -18,7 +18,7 @@ nav {
   align-items: center;
   gap: 20px;
   margin-top: 50px;
-  margin-left:100px;
+  margin-left:70px;
 }
 .nav_info {
   display: flex;
@@ -44,19 +44,15 @@ nav {
   display: flex;
   position: relative;
   margin-top: 50px;
-  gap: 40px;
-
 }
 .hero_text{
     display: flex;
     flex-direction: column;
     gap: 50px;
-    margin-left: 60px;
-    width: 950px;
-    height: 340px;
+    width: 1500px !important;
     position: relative;
-    left: 200px;
-   
+    left: 150px;
+    z-index: -5;
 }
 
 .text_boost{
@@ -279,3 +275,185 @@ nav {
   display: flex;
   gap: 150px;
 }
+
+
+
+
+/* Meet  */
+.meet_top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+.meet_top h2{
+  font-size: 40px;
+}
+
+.meet_card {
+  width: 250px;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.meet_card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.meet_card h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  color: #2d2d8f;
+}
+
+.meet_card p {
+  margin: 0;
+  font-size: 14px;
+  color: gray;
+  letter-spacing: 1px;
+}
+
+.meet_icon {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  border-top: 1px solid #e5e5e5;
+  margin-top: 15px;
+}
+
+.meet_icon div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+  border-right: 1px solid #e5e5e5;
+}
+
+.meet_icon div:last-child {
+  border-right: none;
+}
+
+.meet_icon img {
+  width: 20px;   
+  height: 20px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.meet_icon img:hover {
+  opacity: 1;
+}
+
+.meet_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top:30px;
+}
+
+
+
+
+
+
+/* Subsribe */
+
+.Subscribe_title h2{
+  font-size: 40px;
+}
+
+.Subscribe_title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  
+}
+
+.Subscribe_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.newsletter{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.newsletter input{
+  padding: 20px;
+  border-radius:30px; 
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.newsletter button{
+  padding: 16px;
+  background-color:#FF6600;
+  color:white;
+  border-radius:15px;
+}
+.container_2{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+section{
+  margin-top: 100px;
+}
+
+
+/* Footer */
+.footer_info{
+  margin-top: 100px;
+}
+.info_port{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.port_left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+
+
+.info_right{
+  display: flex;
+  gap: 40px;
+   a{ 
+    color: black;
+   }
+  }
+
+
+.footer_info{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.freee_div{
+  max-width: 1170px;
+  background-color:#EBEAED;
+  height: 2px;
+}
+.footer_p{
+  color:#15143966;
+  margin-bottom: 50px;
+}
+
+

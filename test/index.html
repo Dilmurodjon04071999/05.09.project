@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Card</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #f5f6fa;
+      font-family: Arial, sans-serif;
+    }
+
+    .card {
+      width: 250px;
+      text-align: center;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      background: #fff;
+    }
+
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-top: 20px;
+    }
+
+    .card h3 {
+      margin: 10px 0 5px;
+      font-size: 18px;
+      color: #2d2d8f;
+    }
+
+    .card p {
+      margin: 0;
+      color: gray;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+
+    .social {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 ta teng katak */
+      border-top: 1px solid #eee;
+      margin-top: 15px;
+    }
+
+    .social div {
+      padding: 15px 0;
+      border-right: 1px solid #eee;
+      color: #999;
+      font-size: 20px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .social div:last-child {
+      border-right: none; 
+    }
+
+    .social div:hover {
+      color: #2d2d8f;
+    }
+  </style>
+  <!-- Font Awesome ikonka uchun -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="card">
+    <img src="https://i.pravatar.cc/150?img=47" alt="Profile">
+    <h3>Vanessa Laird</h3>
+    <p>UI DESIGNER</p>
+    <div class="social">
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-dribbble"></i></a>
+    </div>
+  </div>
+</body>
+</html>
